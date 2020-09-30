@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0px 50px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33.3%;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    background-image: url('../img/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding-top: 20px;
+    border-bottom: 5px solid #DB5461;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    padding-top: 200px;
+    text-align: center;
+    color: #DB5461;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+header p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h2 {
+    color: #DB5461;
+    text-shadow: 1px 1px #686963;
+}
+
+/****** NAV ******/
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: block;
+    padding-top: 5px;
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #686963;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #DB5461; 
+    text-decoration-style: solid;
+}
+
+
+/****** PORTFOLIO ******/
+
+.portfolio {
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.portfolio h3 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.portfolio h5 {
+    color: #DB5461;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+
+.portfolio p {
+    width: 100%;
+    padding-top: 5px;
+}
+
+/****** ABOUT ME ******/
+
+#about-me {
+    background-color: #8AA29E;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#about-me h3 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.image {
+    position: relative;
+    padding-top: 100%;
+}
+
+.image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#about-me p {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+/****** FOOTER ******/
+
+#contact {
+    background-color: #686963;
+    height: 300px;
+}
+
+#contact h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+#contact h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+#contact p {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #DB5461;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff; 
+    text-decoration-style: solid;
+}
+
+#contact ul {
+    display: block;
+    text-align: center;
+}
+
+#contact li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.copyright {
+    width: 100%;
+    padding-top: 80px;
+    overflow: auto;
+    text-align: center;
+    color: #fff;
+}
